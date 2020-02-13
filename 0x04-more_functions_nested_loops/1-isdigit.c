@@ -1,4 +1,4 @@
-#include <holberton.h>
+#include "holberton.h"
 /**
  * _isdigit - checks for a digit
  * @c: ascii code from number
@@ -7,7 +7,7 @@
  */
 int _isdigit(int c)
 {
-	int isd
+	int isd;
 
 	if (c <= 57 && c >= 48)
 	{
