@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * isupper - checks for uppercase character
+ * _isupper - checks for uppercase character
  * @c: ascii code for the character to check
  *
  * Return: Always 0.
