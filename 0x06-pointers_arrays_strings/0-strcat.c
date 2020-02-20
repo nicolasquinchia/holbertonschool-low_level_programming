@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * _strcpy -  copies the string pointed to by src.
+ * _strcat -  concatenates two strings.
  * @src: array with the string source
- * @dest: pointer where the test is paste
+ * @dest: pointer where the text is append
  *
  * Return: Always 0.
  */
