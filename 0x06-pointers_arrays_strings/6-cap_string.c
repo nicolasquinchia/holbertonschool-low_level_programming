@@ -15,6 +15,7 @@ char *cap_string(char *s)
 	{
 		for (j = 0; s2[j] != '\0'; j++)
 		{
+			if (s[i] == '\t')
 			{
 				s[i] = ' ';
 			}
