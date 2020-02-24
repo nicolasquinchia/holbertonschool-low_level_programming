@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * _strchr -  locates a character in a string.
+ * _strpbrk -  searches a string for any of a set of bytes.
  * @s: pointer with the location of the string
- * @c: character to find in the string
+ * @accept: characters to check 
  *
  * Return: Always 0.
  */
@@ -25,11 +25,8 @@ char *_strpbrk(char *s, char *accept)
 			{
 				return (s + i);
 			}
-			else if (s[i] == '\0')
-			{
-				s = 0;
-			}
 		}
 	}
+	s = '\0';
 	return (s);
 }
