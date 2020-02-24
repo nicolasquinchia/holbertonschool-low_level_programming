@@ -4,7 +4,7 @@
  * @s: pointer with the location of the string
  * @accept: letters to accept and count
  *
- * Return: Always 
+ * Return: Always
  */
 unsigned int _strspn(char *s, char *accept)
 {
