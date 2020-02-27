@@ -1,4 +1,3 @@
-  
 #include "holberton.h"
 /**
  *_pow_recursion -function that returns x raised to the power of y
