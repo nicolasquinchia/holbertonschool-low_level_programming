@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  *test_mult - returns the natural square root of a number.
- *@a:num to square root
- *@b:int mult test
+ *@n:num to square root
+ *@i:int mult test
  *
  * Return: Always 0 (Success)
  */
@@ -23,8 +23,7 @@ int test_mult(int n, int i)
 }
 /**
  *_sqrt_recursion - function that returns x raised to the power of y
- *@x:base integer
- *@y:exponent integer
+ *@n: num to square root
  *
  * Return: Always 0 (Success)
  */
