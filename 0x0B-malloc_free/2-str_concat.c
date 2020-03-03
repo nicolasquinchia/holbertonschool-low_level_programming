@@ -14,9 +14,9 @@ char *str_concat(char *s1, char *s2)
 	int i, j;
 
 	if (s1 == '\0')
-		s1 ="";
+		s1 = "";
 	else if (s2 == '\0')
-		s2 ="";
+		s2 = "";
 	for (i_s1 = 0; s1[i_s1] != '\0'; i_s1++)
 	{
 	}
@@ -34,5 +34,5 @@ char *str_concat(char *s1, char *s2)
 		p[i] = s2[j];
 		j++;
 	}
-	return (p);	
+	return (p);
 }
