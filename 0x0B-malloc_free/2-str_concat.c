@@ -15,15 +15,13 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == '\0')
 		s1 = "";
-	else if (s2 == '\0')
+	if (s2 == '\0')
 		s2 = "";
 	for (i_s1 = 0; s1[i_s1] != '\0'; i_s1++)
-	{
-	}
 	for (i_s2 = 0; s2[i_s2] != '\0'; i_s2++)
-	{
-	}
 	p = malloc(((i_s1 + i_s2) * sizeof(char)) + 1);
+	if (p == '\0')
+		return ('\0');
 	for (i = 0; i < i_s1; i++)
 	{
 		p[i] = s1[i];
