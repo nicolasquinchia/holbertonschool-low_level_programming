@@ -9,7 +9,7 @@
  */
 char *argstostr(int ac, char **av)
 {
-	int i, j, x, y, n, m;
+	int i, j, x, y, n = 0, m = 0;
 	char *p;
 
 	if (ac == 0 || av == '\0')
