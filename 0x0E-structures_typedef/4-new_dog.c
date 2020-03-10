@@ -8,29 +8,26 @@
  */
 char *_strdup(char *str)
 {
+	char *p;
+	int cont;
 	int i;
-	int a;
-	char *m;
 
 	if (str == '\0')
-	{
 		return ('\0');
-	}
-	i = 0;
-	while (str[i] != '\0')
+	cont = 0;
+	while (str[cont] != '\0')
 	{
-		i++;
+		cont++;
 	}
-	m = malloc((i * sizeof(char)) + 1);
-	if (m == '\0')
-	{
+	p = malloc((cont * sizeof(char)) + 1);
+	if (p == '\0')
 		return ('\0');
-	}
-	for (a = 0; a <= i; a++)
+	for (i = 0; i < cont; i++)
 	{
-		m[a] = str[a];
+		p[i] = str[i];
 	}
-	return (m);
+	p[i] = '\0';
+	return (p);
 }
 /**
  * new_dog - creates a new dog, pointer to memory
@@ -60,6 +57,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		free(p->name);
 		free(p);
+		return ('\0');
 	}
-	return ('\0');
+	return (p);
 }
