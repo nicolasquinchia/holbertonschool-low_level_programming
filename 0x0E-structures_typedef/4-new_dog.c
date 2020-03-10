@@ -8,26 +8,29 @@
  */
 char *_strdup(char *str)
 {
-	char *p;
-	int cont;
 	int i;
+	int a;
+	char *m;
 
 	if (str == '\0')
-		return ('\0');
-	cont = 0;
-	while (str[cont] != '\0')
 	{
-		cont++;
-	}
-	p = malloc((cont * sizeof(char)) + 1);
-	if (p == '\0')
 		return ('\0');
-	for (i = 0; i < cont; i++)
-	{
-		p[i] = str[i];
 	}
-	p[i] = '\0';
-	return (p);
+	i = 0;
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+	m = malloc((i * sizeof(char)) + 1);
+	if (m == '\0')
+	{
+		return ('\0');
+	}
+	for (a = 0; a <= i; a++)
+	{
+		m[a] = str[a];
+	}
+	return (m);
 }
 /**
  * new_dog - creates a new dog, pointer to memory
