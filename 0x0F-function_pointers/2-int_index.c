@@ -3,7 +3,7 @@
 /**
  * int_index - searches for an integer.
  * @array: array of integers to check
- * @size: number of elements on array 
+ * @size: number of elements on array
  * @cmp: pointer to the function to be used to compare values
  *
  * Return: 0 if false, something else otherwise.
@@ -14,7 +14,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 
 	if (size <= 0)
-		return(-1);
+		return (-1);
 	for (i = 0; i < size; i++)
 	{
 		if (cmp(array[i]) == 98 || cmp(array[i]) > 0)
