@@ -8,17 +8,17 @@ A linked list is a linear data structure where each element is a separate object
 
 ![link list vs array](https://www.studytonight.com/data-structures/images/array-vs-linked-list.png)
 
-- [](We can add elements indefinitely to a linked list)
-- [x](We can add elements indefinitely to an array)
+- [] We can add elements indefinitely to a linked list
+- [x] We can add elements indefinitely to an array
 
-- [x](Linked list can contain as value a structure)
-- [x](Array can contain as value a structure)
+- [x] Linked list can contain as value a structure
+- [x] Array can contain as value a structure
 
-- [x](We can easily removed an element from a Linked list)
-- [](We can easily removed an element from an Array)
+- [x] We can easily removed an element from a Linked list
+- [] We can easily removed an element from an Array
 
-- [](Memory is aligned for a Linked list - each elements are back to back in the memory)
-- [x](Memory is aligned for an Array - each elements are back to back in the memory)
+- [] Memory is aligned for a Linked list - each elements are back to back in the memory
+- [x] Memory is aligned for an Array - each elements are back to back in the memory
 
 ## What is a data structure?
 
