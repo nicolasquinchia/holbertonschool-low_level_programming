@@ -13,7 +13,7 @@ size_t print_list(const list_t *h)
 	{
 		if (h->str == '\0')
 		{
-			printf("[0] (nil)\n");
+			printf("[%u] %s\n", 0, "(nil)");
 		}
 		else
 		{
