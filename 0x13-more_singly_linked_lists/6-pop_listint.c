@@ -10,6 +10,10 @@ int pop_listint(listint_t **head)
 	listint_t *p, *temp_head;
 	int n;
 
+	if (head == '\0')
+	{
+		return (0);
+	}
 	temp_head = *head;
 	p = *head;
 	p = p->next;
