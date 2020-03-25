@@ -7,18 +7,18 @@
  */
 int pop_listint(listint_t **head)
 {
-	listint_t *p, *temp_head;
+	listint_t *tmp1, *tmp2;
 	int n;
 
-	if (head == '\0')
+	tmp1 = *head;
+	if (tmp1 == '\0')
 	{
 		return (0);
 	}
-	temp_head = *head;
-	p = *head;
-	p = p->next;
-	*head = p;
-	n = temp_head->n;
-	free(temp_head);
+	tmp2 = *head;
+	tmp1 = tmp1->next;
+	*head = tmp1;
+	n = tmp2->n;
+	free(tmp2);
 	return (n);
 }
