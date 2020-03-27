@@ -1,4 +1,4 @@
-|:wq|:wq "holberton.h"
+#include "holberton.h"
 /**
  * binary_to_uint -  converts a binary number to an unsigned int..
  * @b: address pointing to a string of 0 and 1 chars.
@@ -9,7 +9,7 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int exp, i, tmp = 0, add = 0;
 
-	if (b != '\0')
+	if (b == '\0')
 	{
 		return (0);
 	}
