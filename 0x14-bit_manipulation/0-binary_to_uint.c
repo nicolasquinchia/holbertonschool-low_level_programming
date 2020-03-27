@@ -9,6 +9,10 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int exp, i, tmp = 0, add = 0;
 
+	if (b != '\0')
+	{
+		return (0);
+	}
 	exp = 0;
 	while (b[exp] != '\0')
 	{
