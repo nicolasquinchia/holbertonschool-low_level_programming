@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-	unsigned long int sum = 0; 
+	unsigned long int sum = 0;
 	unsigned long int p_num = 1;
 	unsigned long int c_num = 2;
 	unsigned long int temp = 0;
 
 	while (c_num <= 4000000)
 	{
-		if((c_num % 2) == 0)
+		if ((c_num % 2) == 0)
 		{
 			sum = sum + c_num;
 		}
