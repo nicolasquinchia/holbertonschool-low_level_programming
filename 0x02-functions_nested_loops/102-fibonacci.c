@@ -7,10 +7,9 @@
 int main(void)
 {
 	int i;
-	unsigned long int num_a = 1;
-	unsigned long int num_b = 2;
+	unsigned long int num_a = 0;
+	unsigned long int num_b = 1;
 
-	printf("%lu, %lu, ", num_a, num_b);
 	i = 0;
 	while (i < 50)
 	{
